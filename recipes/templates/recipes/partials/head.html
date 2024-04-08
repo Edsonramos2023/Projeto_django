@@ -64,32 +64,36 @@
             --spacing-gutter-large: 4rem;
         }
 
-        *{
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
 
-        html{
+        html {
             font-size: 62.5%;
         }
 
-        body{
+        body {
             font-size: 1.6rem;
             font-family: var(--font-primary);
+            background: var(--color-gray-1);
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-headings);
         }
+
         .container {
             max-width: 144rem;
             margin: 0 auto;
             padding: var(--spacing-gutter-medium);
         }
+
         .main-reader-container {
             background: var(--color-primary-dark);
         }
+
         .main-logo {
             font-size: 4rem;
             color: var(--color-white);
@@ -101,8 +105,20 @@
             width: fit-content;
             margin: 0 auto;
         }
+
         .main-logo-icon {
             margin-right: 2rem;
+        }
+
+        .search-form {
+            border: .2rem solid var(--color);
+        }
+
+        .search-input,
+        .search-button {
+            border: none;
+            background: none;
+            outline: none;
         }
     </style>
 </head>
